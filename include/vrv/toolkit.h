@@ -817,6 +817,16 @@ private:
 
 public:
     //
+protected:
+    /**
+     * Return the Doc object of the Toolkit instance.
+     */
+    Doc& GetDoc() { return m_doc; }
+    /**
+     * Return the Doc pointer used for MIDI / Timemap rendering.
+     */
+    Doc* GetMidiDoc() { return m_midiDoc; }
+
 private:
     Doc m_doc;
     DocSelection m_docSelection;
