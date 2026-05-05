@@ -418,9 +418,6 @@ private:
     option_SMUFLTEXTFONT m_smuflTextFont;
     // the document id
     std::string m_docId;
-
-protected:
-    pugi::xml_node MvgAddChild(std::string name) { return AddChild(name); }
 };
 
 } // namespace vrv

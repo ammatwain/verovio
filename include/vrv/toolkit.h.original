@@ -866,16 +866,6 @@ private:
     //----------------//
 
     static char *m_humdrumBuffer;
-
-protected:
-    /**
-     * Return the Doc object of the Toolkit instance.
-     */
-     Doc& MvgGetDoc() { return m_doc; }
-     /**
-      * Return the Doc pointer used for MIDI / Timemap rendering.
-      */
-      Doc* MvgGetMidiDoc() { return m_midiDoc; }
 };
 
 } // namespace vrv
